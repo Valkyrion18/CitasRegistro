@@ -1,0 +1,59 @@
+html {
+    min-height: 50%;
+  }
+
+body {
+  margin: 10%;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #130468ec ;
+  min-height: 50%;
+  padding-bottom: 5rem;
+  font-size: 13px;
+}
+
+#sesion{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sura, .label{
+  color: white;
+}
+  
+header{
+  padding-bottom: 5rem;
+}
+
+header h1, h4{
+  color: white;
+}  
+
+.navbar-nav{
+  font-size: 18px;
+  font-weight: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.mb-3 {
+  padding: 0 100px 0 100px;
+  font-size: 20px;
+}
+
+.white-container {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding: 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  background-color: #fff;
+  justify-content: center;
+
+}
+
+
+ 

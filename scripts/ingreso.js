@@ -47,7 +47,7 @@ const getLocalStorage = () => {
                     <td>${fecha}</td>
                     <td>${hora}</td>
                     <td>${sintomas}</td>
-                    <td class="material-icons">delete</td>
+                    <td style="cursor:pointer" class="material-icons">delete</td>
                 </tr>              
         `
     })
@@ -106,7 +106,6 @@ const eliminarDatos = (usuario) => {
         console.log(elemento.nombre)
         if(elemento.nombre === usuario){
             indice = index;
-            console.log('validacion ' + 'indice = ' + indice)
         }
     })
 
